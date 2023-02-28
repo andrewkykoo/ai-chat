@@ -13,7 +13,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex">{/* Menu */}</div>
         <div className="bg-[#343541] flex-1">{children}</div>
       </body>
     </html>
